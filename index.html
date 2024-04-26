@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chrome & Burger</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./scripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo-holder">
+        <div class="logo">🍣</div>
+        <div class="logo-text">Sashimi Sensei</div>
+      </a>
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#menu-burgers">Menu</a>
+          </li>
+          <li>
+            <a href="#menu-burgers" class="button">Order Now</a>
+          </li>
+        </ul>
+        <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+          <img src="./images/mobileToggle.svg" alt="Mobile Toggle" />
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-first">
+          <img
+            src="https://th.bing.com/th/id/OIG2.M16eoUFwDoQxp0OGqL0P?w=1024&h=1024&rs=1&pid=ImgDetMain"
+            alt="Burger Truck"
+            width="100%"
+          />
+        </div>
+        <div class="hero-second">
+            <h1>Sashimi Japaneese Style</h1>
+            <p>
+                A sashimi restaurant typically offers a wide variety of fresh, thinly sliced raw fish or meat, served without rice. These dishes are often garnished with ingredients like daikon radish, wasabi, and shiso leaves to complement the delicate flavors of the seafood. The atmosphere in a sashimi restaurant is usually elegant and serene, emphasizing the natural taste and artful presentation of the sashimi
+            </p>
+            <div class="call-to-action">
+              <a href="./menu.pdf" target="”_blank”" class="button">
+                Full Menu
+              </a>
+            </div>
+          </div>
+      </section>
+      <section id="menu-burgers" class="featured">
+        <h2>100% Fresh Ingredient</h2>
+        <div class="burgers">
+          <article>
+            <figure>
+              <img
+                src="https://www.mashed.com/img/gallery/the-untold-truth-of-sashimi/l-intro-1642188243.jpg"
+                alt="The All-American"
+                width="100%"
+              />
+            </figure>
+            <h3>Sashimi Complete Set</h3>
+            <p>
+             Full of Sashimi
+            </p>
+          </article>
+          <article>
+            <figure>
+              <img
+                src="https://media-cdn.tripadvisor.com/media/photo-s/07/d3/f1/04/ozeki-tokyo-cuisine.jpg"
+                alt="Bacon Cheeseburger"
+                width="100%"
+              />
+            </figure>
+            <h3>Otoro Sashimi</h3>
+            <p>
+            Full of Otoro
+            </p>
+          </article>
+          <article>
+            <figure>
+              <img
+                src="https://static.wixstatic.com/media/c00b72_c328cc26a7584733b2bc39287426aa16~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c00b72_c328cc26a7584733b2bc39287426aa16~mv2.png"
+                alt="The Aloha Burger"
+                width="100%"
+              />
+            </figure>
+            <h3>Tako Sashimi</h3>
+            <p>
+            Full of Tako
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
